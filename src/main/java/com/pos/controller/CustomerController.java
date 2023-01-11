@@ -11,6 +11,7 @@ public class CustomerController {
     @PostMapping("/saveCustomer")
     public String saveCustomer(@RequestBody CustomerDto  customerDto){
         String name = customerDto.getName();
+	name="Veranga Soriyabandara2";
         return name;
     }
 }
